@@ -1,0 +1,25 @@
+name: HMDMinecraft
+version: 1.0.0
+main: net.hmdtalk.plugin.HmdMinecraftPlugin
+api-version: 1.16
+authors: [ HMD Talk Team ]
+description: Synchronisation bidirectionnelle du chat, joueurs, status et carte avec HMD Talk.
+
+commands:
+  pair:
+    description: Associe ce serveur à votre groupe HMD Talk.
+    usage: /pair <CODE>
+    permission: hmd.admin
+    permission-message: §cVous n'avez pas la permission d'exécuter cette commande.
+  hmd:
+    description: Commandes de gestion HMD Talk.
+    usage: /hmd [status|chat|unlink|reload]
+    permission: hmd.admin
+
+permissions:
+  hmd.admin:
+    description: Permet d'administrer le plugin HMD Minecraft.
+    default: op
+  hmd.chat:
+    description: Permet de synchroniser ses messages avec HMD Talk.
+    default: true

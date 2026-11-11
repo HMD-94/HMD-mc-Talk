@@ -1,0 +1,6 @@
+{
+  "name": "HMD Talk & Minecraft",
+  "description": "Plateforme communautaire HMD Talk avec salons, messages en direct, appels WebRTC, stories et intégration complète de serveurs Minecraft avec jumelage sécurisé /pair CODE, chat bidirectionnel et carte du monde en direct.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

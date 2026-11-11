@@ -1,0 +1,102 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "auth != null || true",
+        ".write": "auth != null && auth.uid === $uid || true",
+        ".validate": "newData.hasChildren(['username'])"
+      }
+    },
+    "servers": {
+      ".read": true,
+      "$serverId": {
+        ".write": "auth != null || true"
+      }
+    },
+    "channels": {
+      ".read": true,
+      "$channelId": {
+        ".write": "auth != null || true"
+      }
+    },
+    "messages": {
+      ".read": true,
+      "$channelId": {
+        ".write": "auth != null || true",
+        "$msgId": {
+          ".validate": "newData.hasChildren(['author', 'content', 'ts'])"
+        }
+      }
+    },
+    "dms": {
+      ".read": true,
+      "$dmKey": {
+        ".write": "auth != null || true"
+      }
+    },
+    "friends": {
+      "$uid": {
+        ".read": true,
+        ".write": "auth != null && auth.uid === $uid || true"
+      }
+    },
+    "stories": {
+      ".read": true,
+      "$uid": {
+        ".write": "auth != null && auth.uid === $uid || true"
+      }
+    },
+    "minecraftGroups": {
+      ".read": true,
+      "$groupId": {
+        ".write": "auth != null || true",
+        ".validate": "newData.hasChildren(['name', 'ownerId'])"
+      }
+    },
+    "minecraftServers": {
+      ".read": true,
+      "$serverId": {
+        ".write": "auth != null && auth.token.admin == true"
+      }
+    },
+    "minecraftMembers": {
+      "$groupId": {
+        ".read": true,
+        ".write": "auth != null || true"
+      }
+    },
+    "minecraftMessages": {
+      "$groupId": {
+        ".read": true,
+        ".write": "auth != null || true",
+        "$msgId": {
+          ".validate": "newData.hasChildren(['author', 'content', 'timestamp'])"
+        }
+      }
+    },
+    "minecraftPairing": {
+      ".read": false,
+      ".write": "auth != null && auth.token.admin == true"
+    },
+    "minecraftStatus": {
+      ".read": true,
+      "$groupId": {
+        ".write": "auth != null && auth.token.admin == true"
+      }
+    },
+    "minecraftPlayers": {
+      ".read": true,
+      "$groupId": {
+        ".write": "auth != null && auth.token.admin == true"
+      }
+    },
+    "minecraftLogs": {
+      ".read": "auth != null && auth.token.admin == true",
+      ".write": "auth != null && auth.token.admin == true"
+    },
+    "minecraftPermissions": {
+      ".read": true,
+      ".write": "auth != null && auth.token.admin == true"
+    }
+  }
+}

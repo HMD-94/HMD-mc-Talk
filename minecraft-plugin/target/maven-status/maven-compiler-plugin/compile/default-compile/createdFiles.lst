@@ -1,0 +1,7 @@
+net/hmdtalk/plugin/network/HmdApiClient.class
+net/hmdtalk/plugin/listeners/PlayerListener.class
+net/hmdtalk/plugin/listeners/ChatListener.class
+net/hmdtalk/plugin/tasks/HeartbeatTask.class
+net/hmdtalk/plugin/commands/PairCommand.class
+net/hmdtalk/plugin/HmdMinecraftPlugin.class
+net/hmdtalk/plugin/commands/HmdCommand.class

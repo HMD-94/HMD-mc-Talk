@@ -1,0 +1,39 @@
+[
+  {
+    "id": "log-cs1brot",
+    "timestamp": 1794403493008,
+    "action": "ADMIN_LOGIN_FAILED",
+    "operator": "unknown",
+    "details": "Code incorrect tenté depuis 127.0.0.1",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "log-0l2gmhe",
+    "timestamp": 1794403489914,
+    "action": "ADMIN_LOGIN_SUCCESS",
+    "operator": "admin",
+    "details": "Connexion administrateur réussie depuis 127.0.0.1",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "log-whlg79m",
+    "timestamp": 1794403485930,
+    "action": "SERVER_PAIRED",
+    "operator": "play.hmdtalk.fr",
+    "details": "Serveur connecté au groupe \"HMD Survival Vanilla\" avec succès"
+  },
+  {
+    "id": "log-haqbf4i",
+    "timestamp": 1794403482234,
+    "action": "PAIRING_CODE_GENERATED",
+    "operator": "admin",
+    "details": "Code HMD-FN6R-K9 généré pour groupe HMD Survival Vanilla"
+  },
+  {
+    "id": "log-0",
+    "timestamp": 1794317077390,
+    "action": "SYSTEM_BOOT",
+    "operator": "system",
+    "details": "Initialisation du backend HMD Minecraft"
+  }
+]

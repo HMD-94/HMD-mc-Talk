@@ -1,0 +1,69 @@
+{
+  "demo-survival": {
+    "id": "demo-survival",
+    "name": "HMD Survival Vanilla",
+    "description": "Serveur de survie communautaire avec économie et claims.",
+    "logo": "⛏️",
+    "ip": "play.hmdtalk.fr",
+    "port": 25565,
+    "loader": "Paper",
+    "version": "1.21.4",
+    "isPublic": true,
+    "inviteCode": "HMD-SURV-2026",
+    "ownerId": "system",
+    "createdAt": 1794144277390,
+    "serverToken": "hmd_sec_9v9u43r5oxk_mwc5i6zu",
+    "status": "online",
+    "lastSeen": 1794403485930,
+    "webmapUrl": "",
+    "hidePlayerCoords": false,
+    "tps": 19.98,
+    "ramUsedMb": 2450,
+    "ramMaxMb": 6144,
+    "motd": "§6Bienvenue sur le serveur §bHMD Talk Survival§r",
+    "players": [
+      {
+        "name": "AlexCraft",
+        "uuid": "069a79f4-44e9-4726-a5be-fca90e38aaf5",
+        "ping": 24,
+        "health": 20,
+        "dimension": "overworld",
+        "x": 124,
+        "y": 64,
+        "z": -350,
+        "yaw": 180,
+        "pitch": 0
+      },
+      {
+        "name": "SteveMiner",
+        "uuid": "853c80ef-3c37-49fd-aa49-938b674adae6",
+        "ping": 38,
+        "health": 18,
+        "dimension": "the_nether",
+        "x": 45,
+        "y": 72,
+        "z": 88,
+        "yaw": 45,
+        "pitch": -10
+      },
+      {
+        "name": "NotchFan",
+        "uuid": "92110c71-331d-4eb0-80ea-323e9c403323",
+        "ping": 42,
+        "health": 20,
+        "dimension": "overworld",
+        "x": -210,
+        "y": 68,
+        "z": 412,
+        "yaw": 270,
+        "pitch": 5
+      }
+    ],
+    "members": {
+      "system": {
+        "role": "owner",
+        "joinedAt": 1794144277390
+      }
+    }
+  }
+}

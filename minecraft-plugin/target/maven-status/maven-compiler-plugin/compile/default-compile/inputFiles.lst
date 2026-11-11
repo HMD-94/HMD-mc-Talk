@@ -1,0 +1,7 @@
+/app/applet/minecraft-plugin/src/main/java/net/hmdtalk/plugin/commands/HmdCommand.java
+/app/applet/minecraft-plugin/src/main/java/net/hmdtalk/plugin/listeners/PlayerListener.java
+/app/applet/minecraft-plugin/src/main/java/net/hmdtalk/plugin/commands/PairCommand.java
+/app/applet/minecraft-plugin/src/main/java/net/hmdtalk/plugin/tasks/HeartbeatTask.java
+/app/applet/minecraft-plugin/src/main/java/net/hmdtalk/plugin/listeners/ChatListener.java
+/app/applet/minecraft-plugin/src/main/java/net/hmdtalk/plugin/HmdMinecraftPlugin.java
+/app/applet/minecraft-plugin/src/main/java/net/hmdtalk/plugin/network/HmdApiClient.java

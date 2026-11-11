@@ -1,0 +1,28 @@
+# ========================================================
+# HMD Talk Minecraft Plugin - Configuration
+# ========================================================
+
+# URL de l'instance backend HMD Talk (ex: https://mon-hmd-talk.fr ou http://localhost:3000)
+backend_url: "http://localhost:3000"
+
+# Token de sécurité généré lors de la commande /pair <CODE>
+# NE PAS MODIFIER MANUELLEMENT sauf si vous révoquez l'accès
+server_token: ""
+
+# ID du groupe HMD associé
+group_id: ""
+
+# Préfixe affiché dans le chat Minecraft lors des messages envoyés depuis HMD Talk
+chat_prefix: "§d[HMD Talk] §r"
+
+# Intervalle de battement de cœur et de synchronisation des joueurs (en secondes, min 2s)
+heartbeat_interval: 5
+
+# Synchronisation du chat du jeu vers HMD Talk
+sync_in_game_chat: true
+
+# Synchronisation des événements (connexions, déconnexions, morts)
+sync_events: true
+
+# Synchronisation des coordonnées des joueurs pour la carte interactive
+sync_coordinates: true
